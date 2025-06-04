@@ -29,7 +29,7 @@ document.getElementById("time_change").innerText = time
 
 document.getElementById("Completed_btn_1").addEventListener("click", function(x){
     alert("board undate successufully")
-    x.target.style.backgroundColor = "red";
+    x.target.style.backgroundColor = "gray";
     x.target.disabled = true;
 
 
@@ -66,7 +66,7 @@ document.getElementById("Completed_btn_1").addEventListener("click", function(x)
 // button number -- 2
 document.getElementById("Completed_btn_2").addEventListener("click", function(x){
     alert("board undated successully");
-    x.target.style.backgroundColor = "red";
+    x.target.style.backgroundColor = "gray";
 x.target.disabled = true;
 
 
@@ -103,7 +103,7 @@ x.target.disabled = true;
 
 document.getElementById("Completed_btn_3").addEventListener("click", function(x){
     alert("Board undated successully");
-    x.target.style.backgroundColor ="red";
+    x.target.style.backgroundColor ="gray";
     x.target.disabled = true;
 
     const task =document.getElementById("Task_Assigned").innerText;
@@ -140,7 +140,7 @@ document.getElementById("Completed_btn_3").addEventListener("click", function(x)
 
 document.getElementById("Completed_btn_4").addEventListener("click", function(x){
     alert("Board undated successully");
-    x.target.style.backgroundColor ="red";
+    x.target.style.backgroundColor ="gray";
     x.target.disabled = true;
 
     const task =document.getElementById("Task_Assigned").innerText;
@@ -177,7 +177,7 @@ document.getElementById("Completed_btn_4").addEventListener("click", function(x)
 
 document.getElementById("Completed_btn_5").addEventListener("click", function(x){
     alert("Board undated successully");
-    x.target.style.backgroundColor ="red";
+    x.target.style.backgroundColor ="gray";
     x.target.disabled = true;
 
     const task =document.getElementById("Task_Assigned").innerText;
@@ -213,7 +213,7 @@ document.getElementById("Completed_btn_5").addEventListener("click", function(x)
 
 document.getElementById("Completed_btn_6").addEventListener("click", function(x){
     alert("Board undated successully");
-    x.target.style.backgroundColor ="red";
+    x.target.style.backgroundColor ="gray";
     x.target.disabled = true;
 
     const task =document.getElementById("Task_Assigned").innerText;
